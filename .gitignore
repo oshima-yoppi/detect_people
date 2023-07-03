@@ -1,5 +1,5 @@
-result
-ML_imgs
-coco_dataset
-hito_dataset
-image
+result/
+ML_imgs/
+coco_dataset/
+hito_dataset/
+image/
