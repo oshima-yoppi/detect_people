@@ -8,9 +8,10 @@
 
 ## 必要ライブラリ
 anacondaで環境作るのおすすめです。  
-ライブラリに関しては`emv.yml`に記載してあります。次のコマンドで環境を作ってください。
+ライブラリに関しては`env/env.yml`に記載してあります。次のコマンドで環境を作ってください。
 ```bash
-conda create -n 環境名 -f env.yml
+conda create -n people -f env/env.yml
+conda activate people
 ```
 
 
