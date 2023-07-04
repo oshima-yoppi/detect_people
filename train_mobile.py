@@ -74,13 +74,13 @@ model.fit(
 )
 
 # %%
-tfmodel_path = "model_mobile_good.h5"
+tfmodel_path = "model/model_mobile_good.h5"
 model.save(tfmodel_path) # modelを保存する
 
 # %%
 
 # TensorFlow Liteモデルに変換
-def convert_tfmodel(tfmodel_path, tflite_model_path='model_mobile.tflite'):
+def convert_tfmodel(tfmodel_path, tflite_model_path='model/model_mobile.tflite'):
     """
     tensorflowモデルをtfliteモデルに変換する関数
     """

@@ -39,7 +39,7 @@ test_generator = test_datagen.flow_from_directory(
 # VGG16のモデルと重みをインポート
 
 
-model_path = "model_mobile_good.h5"
+model_path = "model/model_mobile_good.h5"
 model = tf.keras.models.load_model(model_path)
 # 構築したモデルを確認
 model.summary()
@@ -65,6 +65,6 @@ quantized_model.fit(
 )
 
 # %%
-model.save("model_mobile_bad.h5")
+model.save("model/model_mobile_bad.h5")
 
 # %%

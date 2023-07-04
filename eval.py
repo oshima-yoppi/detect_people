@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import os
 
 # モデルの読み込み
-model_path = "model_mobile_good.h5"
+model_path = "model/model_mobile_good.h5"
 model = tf.keras.models.load_model(model_path) 
 pix = 224 
 # %%
