@@ -24,7 +24,7 @@ conda activate people
 
 ## 使い方
 1. `make_data.py`を実行し、学習データセットをダウンロードする。
-2. `train_mobile.py`を実行し、学習を行う。学習が行われると、`model_mobile_good.h5`というtensorflow用のモデルが作成される。そのモデルをtflite用に変換した`model_mobile.tflite`というモデルも作成される。
+2. `train_mobile.py`を実行し、学習を行う。学習が行われると、`model_mobile_good.h5`というtensorflow用のモデルが作成される。そのモデルをtflite用に変換した`model_mobile.tflite`というモデルも作成される。モデルは`model`ディレクトリに保存される。
 3. `eval.py`を実行し、学習済みモデルを評価する。あるディレクトリに評価したい画像を適当に入れとく。
 4. `train_mobile.py`で作成されたtflite用のモデルをラズパイに転送し、実行する。
 
